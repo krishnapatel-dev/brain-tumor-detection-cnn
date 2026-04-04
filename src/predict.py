@@ -7,7 +7,7 @@ from model import get_model
 # Device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Classes (same order as training)
+# Classes (IMPORTANT: same order as training)
 class_names = ['glioma', 'meningioma', 'notumor', 'pituitary']
 
 # Load model
