@@ -3,7 +3,9 @@
   <img src="https://img.shields.io/badge/Accuracy-96%25-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Framework-PyTorch-red?style=for-the-badge" />
 </p>
-# 🧠 Brain Tumor Detection using Deep Learning
+---
+
+## 🧠 Brain Tumor Detection using Deep Learning
 
 An end-to-end deep learning system for detecting brain tumors from MRI images using ResNet50 with transfer learning, deployed as an interactive web application with explainability using Grad-CAM.
 
@@ -62,8 +64,8 @@ An end-to-end deep learning system for detecting brain tumors from MRI images us
 
 ```bash
 # Clone repository
-git clone https://github.com/krishnapatel-dev/brain-tumor-detection-cnn.git
-cd brain-tumor-detection-cnn
+git clone https://github.com/krishnapatel-dev/brain-tumor-detection-resnet50-xai.git
+cd brain-tumor-detection-resnet50-xai
 
 # Install dependencies
 pip install -r requirements.txt
@@ -82,14 +84,6 @@ streamlit run app.py
 * Reduced training time while achieving high accuracy
 * Implemented Grad-CAM for interpretable AI in medical imaging
 * Built complete pipeline: training → evaluation → deployment
-
----
-
-## 📌 Future Improvements
-
-* Cloud deployment (Streamlit Cloud / AWS)
-* Add patient history & logging
-* Enhance UI/UX further
 
 ---
 
