@@ -2,6 +2,7 @@ import torch
 from torchvision import transforms
 from PIL import Image
 
+
 from model import get_model
 
 # Device
